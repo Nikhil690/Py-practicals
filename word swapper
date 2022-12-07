@@ -12,7 +12,7 @@ while r == True:
     print("Your first string has become :- ",userInput1)
     print("Your second string has become :- ",userInput2)
     r = input("To run the code again just type yes: ")
-    if r == "y":
+    if r == "yes":
         r = bool(True)
     else:
         r = bool(False)
