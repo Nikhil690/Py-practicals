@@ -1,0 +1,6 @@
+userInput = str(input("Enter a string: "))
+ 
+userInput2 = userInput.replace(input("Enter the character do you want to replace: "), input("Enter the character do you want to replace with: ") )
+ 
+print(userInput)
+print(userInput2)
