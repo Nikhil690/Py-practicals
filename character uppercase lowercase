@@ -1,0 +1,15 @@
+r = True
+while r == True: 
+    character = str(input("Enter a character: "))
+    if len(character) != 1 or character.isdigit():
+        print("Enter a single Letter, bakayaro!")
+    elif character.isupper():
+        print(character,"is uppercase.")
+    else:
+        print(character,"is lowercase.")
+    r = input("To run the code again just type yes: ")
+    if r == "yes":
+        r = bool(True)
+    else:
+        r = bool(False)
+        
